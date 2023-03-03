@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="USS/slidingMenu.uss" />
+    <Style src="USS/unifiedUSS.uss" />
+    <Style src="Resources/USS/room-inspector.uss" />
+    <ui:VisualElement name="toto" picking-mode="Ignore" style="width: 100%; height: 100%; flex-direction: row-reverse; justify-content: flex-start;">
+        <ui:VisualElement name="mainB" class="sliding-main" style="top: 40%; height: 500px; flex-direction: row; width: 250px; max-width: 250px; min-width: 250px; right: -220px; max-height: 500px; min-height: 500px;">
+            <ui:VisualElement name="arrow-container" style="flex-grow: 1; flex-direction: row; width: 30px; max-width: 30px; min-width: 30px; height: 30px; max-height: 30px; align-items: center; justify-content: center; background-color: rgba(255, 255, 255, 0); min-height: 30px;">
+                <ui:Button display-tooltip-when-elided="true" name="show" style="background-image: url(&apos;/Assets/BIMEXPO/Sprites/collapse-arrow-left.png&apos;); background-color: rgba(228, 228, 228, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; flex-grow: 0; width: 30px; height: 100%; -unity-background-image-tint-color: rgb(255, 255, 255); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="moving-menu" class="menu-white-background" style="width: auto; flex-grow: 1; height: 100%; max-height: 100%; max-width: initial; min-width: initial; min-height: 100%; flex-direction: column; flex-wrap: nowrap; align-items: flex-start;">
+                <ui:VisualElement name="info-container" style="height: 390px; max-height: none; min-height: auto; width: 100%; align-items: flex-start;" />
+                <ui:VisualElement name="bottom-buttons" style="height: auto; max-height: none; min-height: auto; width: 100%; align-items: center; margin-top: 5px; bottom: auto; top: auto;">
+                    <ui:Button text="Restaurer la dernière configuration" display-tooltip-when-elided="true" name="restore" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 80%; flex-wrap: nowrap; white-space: normal; font-size: 10px; height: 30px;" />
+                    <ui:Button text="Sauvegarder mes choix" display-tooltip-when-elided="true" name="dbSave" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 80%; flex-wrap: nowrap; white-space: normal; font-size: 10px; height: 30px;" />
+                    <ui:Button text="Produire l&apos;avenant" display-tooltip-when-elided="true" name="amendment" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 80%; flex-wrap: nowrap; white-space: normal; font-size: 10px; height: 30px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

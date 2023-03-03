@@ -1,0 +1,17 @@
+﻿.dropdown {
+    left: 50px;
+    top: 50px;
+    width: 200px;
+    height: 20px;
+    background-color: #222222;
+    border-color: white;
+    border-width: 1px;
+}
+
+.dropdown-menu {
+    width: 200px;
+    height: 200px;
+    background-color: #222222;
+    border-color: white;
+    border-width: 1px;
+}

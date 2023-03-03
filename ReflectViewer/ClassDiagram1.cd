@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CommentMenuScript" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAIAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BIMEXPO\CommentMenuScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBInteractions" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAEAAEAAAAAAAAAgggAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BIMEXPO\DBInteractions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dummyMetadataScript" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAQAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BIMEXPO\dummyMetadataScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenusHandler" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYgAAAAAAAAAABAIAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BIMEXPO\MenusHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreselectionMenuScript" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIEAACAAAAAAAAAAAIAIAAABAAQAFBAAgABDEAAACAA=</HashCode>
+      <FileName>Assets\Scripts\BIMEXPO\PreselectionMenuScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TilesChoiceMenuScript" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAAAQAIAAAAAAAAAAAEAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\BIMEXPO\TilesChoiceMenuScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValidateSelectionsScript" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BIMEXPO\ValidateSelectionsScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web">
+    <Position X="2.25" Y="2.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ACQgAAAAACALEABAhIAMAgEBEABIiQEIio0CIgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BIMEXPO\Web.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

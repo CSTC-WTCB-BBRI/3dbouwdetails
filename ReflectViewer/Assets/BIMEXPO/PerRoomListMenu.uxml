@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="Resources/USS/smaller_toggle.uss" />
+    <ui:VisualElement name="root" style="width: 150px; height: 231.2px; max-width: 150px; max-height: 30%; flex-wrap: wrap; top: 7%; background-color: rgba(0, 0, 0, 0.36); border-top-right-radius: 20px; border-bottom-right-radius: 20px; display: none; min-width: 150px;">
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="roomName" class="title" style="min-width: 160px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,172 @@
+.medaillon {
+    height: 50px;
+    width: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    visibility: visible;
+    background-color: rgb(0, 0, 0);
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    right: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    max-width: none;
+    max-height: none;
+    min-height: auto;
+    min-width: auto;
+}
+
+.medaillon:hover {
+    height: 50px;
+    width: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    visibility: visible;
+    background-color: rgb(0, 0, 0);
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(29, 0, 217);
+    border-right-color: rgb(29, 0, 217);
+    border-top-color: rgb(29, 0, 217);
+    border-bottom-color: rgb(29, 0, 217);
+    right: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    max-width: none;
+    max-height: none;
+    min-height: auto;
+    min-width: auto;
+}
+
+.selected-medaillon {
+    height: 50px;
+    width: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    visibility: visible;
+    background-color: rgb(0, 0, 0);
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(4, 255, 8);
+    border-right-color: rgb(4, 255, 8);
+    border-top-color: rgb(4, 255, 8);
+    border-bottom-color: rgb(4, 255, 8);
+    right: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    max-width: none;
+    max-height: none;
+    min-height: auto;
+    min-width: auto;
+}
+
+.medaillon-container {
+    width: 100%;
+    height: 80%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.title-menu {
+    align-items: center;
+    left: 25%;
+    -unity-text-align: upper-center;
+    width: 50%;
+    right: auto;
+    position: relative;
+    white-space: normal;
+    height: 10%;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    -unity-font-style: bold;
+    -unity-font: resource('Fonts & Materials/LiberationSans');
+    flex-wrap: wrap;
+    max-height: 50px;
+    min-height: 50px;
+    -unity-font-definition: resource('Fonts & Materials/LiberationSans SDF');
+}
+
+.main-menu {
+    height: 50%;
+    width: 80%;
+    background-color: rgba(130, 130, 130, 0.39);
+    left: 10%;
+    right: 10%;
+    top: 25%;
+    flex-shrink: 0;
+    border-left-color: rgb(255, 8, 8);
+    border-right-color: rgb(255, 8, 8);
+    border-top-color: rgb(255, 8, 8);
+    border-bottom-color: rgb(255, 8, 8);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-grow: 0;
+    max-height: none;
+    min-height: 50%;
+    max-width: 80%;
+    min-width: 80%;
+    display: flex;
+}
+
+.toto {
+    color: rgb(0, 0, 0);
+    -unity-font-style: bold;
+    -unity-font: resource('');
+    font-size: 19px;
+    height: 7%;
+    top: 2%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    -unity-text-align: upper-center;
+    white-space: normal;
+    width: 50%;
+    left: 25%;
+    flex-shrink: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+.ok-but {
+    left: 50%;
+    bottom: 1%;
+    overflow: hidden;
+    background-color: rgb(8, 241, 0);
+    -unity-font-style: bold;
+}

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="main" style="width: 25%; height: 15%; left: 37%; top: 42%; align-items: center; justify-content: center; background-color: rgba(94, 94, 94, 0.93); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; display: none; opacity: 1; flex-wrap: wrap;">
+        <ui:Label display-tooltip-when-elided="true" name="message" style="font-size: 15px; -unity-text-align: upper-center; color: rgb(255, 255, 255); flex-wrap: nowrap; white-space: normal;" />
+    </ui:VisualElement>
+</ui:UXML>

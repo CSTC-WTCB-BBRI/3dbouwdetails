@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="Resources/USS/testVE.uss" />
+    <ui:VisualElement name="menu" class="main-menu" style="display: flex;">
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="menu-title" />
+        <ui:VisualElement name="img-container" style="width: 100%; height: 80%;" />
+        <ui:VisualElement style="flex-direction: row; flex-wrap: wrap; justify-content: space-between; flex-grow: 0; width: 100%; align-items: stretch;">
+            <ui:Button text="Apply choice" display-tooltip-when-elided="true" name="ok-button" class="ok-but" style="align-items: stretch; left: 5%;" />
+            <ui:Button text="Apply choice &amp; take screenshot" display-tooltip-when-elided="true" name="ok-screenshot-button" class="ok-but" style="left: auto;" />
+            <ui:Button text="Cancel" display-tooltip-when-elided="false" name="cancel" class="ok-but" style="left: auto; background-color: rgb(142, 140, 137); right: 5%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

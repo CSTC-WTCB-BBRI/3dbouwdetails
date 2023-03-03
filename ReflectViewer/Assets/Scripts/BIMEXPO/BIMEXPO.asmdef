@@ -1,0 +1,20 @@
+{
+    "name": "BIMEXPO",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8c09aa1e4b73db04094be9d510142dd2",
+        "GUID:6cf67fea318af2844a952982933563b0",
+        "GUID:74d2eea16291e475bbc857905e4d8f8e",
+        "GUID:c6c4e6c6d92818b4f8de2a6eacc86757",
+        "GUID:e213b41d4aff69b46922e2043c32931d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="USS/unifiedUSS.uss" />
+    <ui:VisualElement name="bckground" style="flex-grow: 1; background-color: rgba(36, 38, 48, 0.79); align-items: center; justify-content: center;">
+        <ui:VisualElement name="CommentBox" class="menu-white-background" style="flex-wrap: wrap; width: 50%; height: 50%; max-width: 50%; max-height: 50%; align-items: center; opacity: 0;">
+            <ui:Label text="Commentaires" display-tooltip-when-elided="true" name="Title" enable-rich-text="true" class="title-label" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="surface" class="info-label" />
+            <ui:VisualElement style="width: 100%; flex-direction: row; flex-wrap: wrap; height: 60%; justify-content: space-around;">
+                <ui:VisualElement name="side" style="-unity-text-align: middle-left; justify-content: center;">
+                    <ui:Button display-tooltip-when-elided="true" tooltip="Prendre une photo" name="photo" style="width: 50px; height: 50px; background-image: url(&apos;/Assets/BIMEXPO/Sprites/photo.png&apos;); background-color: rgba(228, 228, 228, 0); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Container" style="flex-grow: 1; width: 80%; max-width: 80%; height: auto;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="screenshot" style="flex-wrap: wrap; width: 100%; height: 25%;" />
+            <ui:Button text="Ok" display-tooltip-when-elided="true" name="ok-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

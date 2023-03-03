@@ -1,0 +1,12 @@
+.short-toggle Label {
+    width: 120px;
+    min-width: 120px;
+}
+
+.red-toggle Label {
+    color: rgba(255, 0, 0, 255);
+}
+
+.green-toggle Label {
+    color: rgba(0, 255, 0, 255);
+}

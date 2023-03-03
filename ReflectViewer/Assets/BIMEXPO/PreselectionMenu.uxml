@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="Resources/USS/selectionMenus.uss" />
+    <Style src="Resources/USS/testVE.uss" />
+    <ui:VisualElement name="main-menu" class="main-menu" style="display: none;">
+        <ui:Label text="Présélection des carrelages" display-tooltip-when-elided="true" enable-rich-text="true" class="toto" style="-unity-text-align: upper-center; white-space: nowrap; -unity-font: resource(&apos;FlatSkin/Font/Roboto-Light&apos;);" />
+        <ui:VisualElement style="width: 20%; height: auto; flex-grow: 0; flex-wrap: wrap; flex-shrink: 0; align-items: flex-start; left: 1%; position: relative; background-color: rgb(202, 206, 206); top: auto; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); overflow: visible;">
+            <ui:Toggle label="Murs" value="false" name="wallToggle" class="myToggle" style="align-items: stretch; justify-content: flex-start; flex-wrap: wrap;" />
+            <ui:Toggle label="Sols" value="false" name="slabToggle" class="myToggle" style="flex-wrap: wrap; font-size: 12px; align-items: stretch; color: rgb(0, 0, 0); flex-shrink: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 76%; flex-grow: 1; flex-direction: row; flex-wrap: nowrap; left: 22%; top: -10%; align-items: flex-start;">
+            <ui:VisualElement name="myscroll" style="height: 100%;">
+                <ui:Scroller high-value="100" direction="Vertical" value="100" style="flex-direction: row; flex-grow: 0; height: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="img-container" style="flex-direction: row; flex-wrap: wrap; flex-grow: 0; height: 100%; align-items: flex-start; display: flex;" />
+        </ui:VisualElement>
+        <ui:Button text="OK" display-tooltip-when-elided="true" name="ok-button" class="ok-but" />
+    </ui:VisualElement>
+    <ui:VisualElement name="side-buttons" style="flex-direction: column; flex-grow: 0; top: 65%; width: 8%; justify-content: flex-start; flex-wrap: wrap; align-items: flex-start; flex-shrink: 0; position: absolute; bottom: auto; height: 30%; left: 3.5%; display: flex;">
+        <ui:Button display-tooltip-when-elided="true" name="produce-amendment" style="left: auto; bottom: auto; width: 50px; height: 50px; top: auto; background-image: url(&apos;/Packages/com.unity.reflect.touch-framework/Runtime/Sprites/Backgrounds/Icon/Circle Fill/IconBackgroundCircleFill@2x.png&apos;); -unity-background-image-tint-color: rgba(255, 255, 255, 0.25); justify-content: flex-start; background-color: rgba(245, 245, 245, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); display: none; visibility: visible; opacity: 1; align-items: stretch;">
+            <ui:IMGUIContainer style="background-image: url(&apos;/Assets/BIMEXPO/Sprites/avenant.png&apos;); flex-grow: 1; flex-direction: row; flex-shrink: 0; -unity-background-scale-mode: scale-to-fit;" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="show-hide-menu" style="left: auto; bottom: auto; width: 50px; height: 50px; top: auto; background-image: url(&apos;/Packages/com.unity.reflect.touch-framework/Runtime/Sprites/Backgrounds/Icon/Circle Fill/IconBackgroundCircleFill@2x.png&apos;); -unity-background-image-tint-color: rgba(200, 200, 200, 0.5); justify-content: flex-start; background-color: rgba(200, 200, 200, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); display: none; visibility: visible; opacity: 1;">
+            <ui:IMGUIContainer style="background-image: url(&apos;/Assets/BIMEXPO/Sprites/icons8-one-finger-80.png&apos;); flex-grow: 1; flex-direction: row; flex-shrink: 0;" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="restore-previous" style="left: auto; bottom: auto; width: 50px; height: 50px; top: auto; background-image: url(&apos;/Packages/com.unity.reflect.touch-framework/Runtime/Sprites/Backgrounds/Icon/Circle Fill/IconBackgroundCircleFill@2x.png&apos;); -unity-background-image-tint-color: rgba(200, 200, 200, 0.5); justify-content: flex-start; background-color: rgba(200, 200, 200, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); display: none; visibility: visible; opacity: 1;">
+            <ui:IMGUIContainer style="background-image: url(&apos;/Assets/BIMEXPO/Sprites/restauration.png&apos;); flex-grow: 1; flex-direction: row; flex-shrink: 0; -unity-background-scale-mode: scale-to-fit; display: flex;" />
+        </ui:Button>
+        <ui:Toggle value="false" name="includedToggle" tooltip="Higlight tilable surfaces" style="flex-direction: row; align-items: flex-start; flex-wrap: nowrap; width: auto; height: auto; flex-grow: 0; justify-content: center; left: 30%; top: 10%; display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

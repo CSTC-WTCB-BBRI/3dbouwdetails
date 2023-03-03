@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="USS/unifiedUSS.uss" />
+    <ui:VisualElement picking-mode="Ignore" name="root" style="flex-direction: row; align-items: flex-start; height: 100%; width: 100%;">
+        <ui:VisualElement name="tilesContainer" picking-mode="Ignore" class="main-menu" style="flex-direction: row; justify-content: flex-start; top: 48px; left: 0; display: flex; min-height: 20%; max-height: 20%; flex-grow: 0; height: 20%;" />
+        <ui:VisualElement picking-mode="Ignore" name="roomInfo" style="top: 48px; position: relative; width: 40%; height: 20%; left: auto; flex-wrap: wrap; align-items: flex-start;">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="roomName" class="title-label" style="font-size: 20px; display: none; width: 100%;" />
+            <ui:VisualElement picking-mode="Ignore" name="roomSurfaces" style="width: 100%; height: auto; flex-wrap: wrap; overflow: visible;" />
+            <ui:VisualElement name="commentHolder" picking-mode="Ignore" style="width: 100%; align-items: center; margin-top: 2px; margin-bottom: 2px; display: none;">
+                <ui:Button text="Ajouter une note" display-tooltip-when-elided="true" name="comment" style="width: 40%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="infoText" picking-mode="Ignore" class="info-box" style="display: none;">
+            <ui:VisualElement picking-mode="Ignore" style="width: 100%; max-width: 100%; min-width: 100%; align-items: center; flex-wrap: wrap; justify-content: center;">
+                <ui:Label text="ljmldsjfk" display-tooltip-when-elided="true" picking-mode="Ignore" name="title" class="title-label" />
+            </ui:VisualElement>
+            <ui:VisualElement picking-mode="Ignore" name="infoHolder" style="width: 100%; max-width: 100%; min-width: 100%; flex-grow: 1; flex-wrap: wrap;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,24 @@
+#accordion section a {
+	text-decoration: none;
+	color: black;
+}
+
+#accordion section a:hover {
+	text-decoration: underline;
+}
+
+#invisible-table table tr {
+	display: none;
+}
+
+#accordion section:target table tr {
+	display: table-row;
+}
+
+#old-captures table td {
+	display: none;
+}
+
+#accordion section:target table td {
+	display: table-cell;
+}

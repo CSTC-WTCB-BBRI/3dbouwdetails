@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="USS/unifiedUSS.uss" />
+    <ui:VisualElement picking-mode="Ignore" name="main" class="menu-white-background" style="width: 70%; height: 70%; left: 15%; top: 15%; opacity: 0;">
+        <ui:VisualElement name="title" style="flex-direction: row; -unity-text-align: upper-center; justify-content: center; align-items: center; height: 8%; border-bottom-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="title-label" style="font-size: 16px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="info" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="included" style="width: 50%; height: auto; border-left-color: rgb(0, 0, 0); border-left-width: 0; border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-right-width: 1px;">
+                <ui:VisualElement name="included-title">
+                    <ui:Label text="Surfaces incluses dans le prix" display-tooltip-when-elided="true" class="title-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="included-info" style="flex-grow: 1; margin-top: 5px; flex-wrap: wrap;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="not-included" style="width: 50%;">
+                <ui:VisualElement name="not-included-title">
+                    <ui:Label text="Surfaces non incluses dans le prix" display-tooltip-when-elided="true" class="title-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="not-included-info-main" style="flex-grow: 1; margin-top: 5px; flex-wrap: wrap;">
+                    <ui:VisualElement name="not-included-info" style="height: 90%; flex-wrap: wrap;" />
+                    <ui:VisualElement name="not-included-summary" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ok-zone" style="height: 10%; align-items: center; justify-content: center;">
+            <ui:Button text="Ok" display-tooltip-when-elided="true" name="ok-button" style="opacity: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
